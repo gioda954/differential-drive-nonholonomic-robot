@@ -76,6 +76,62 @@
       </link>
     </model>
 
+    <model name="cylinder_obstacle1">
+      <static>true</static> <!-- Set to true so it doesn't move -->
+      <pose>2 3 0.5 0 0 0</pose> <!-- X Y Z Roll Pitch Yaw; place above the ground -->
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.6 0.2 0.2 1</ambient>
+            <diffuse>0.6 0.2 0.2 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cylinder_obstacle2">
+      <static>true</static> <!-- Set to true so it doesn't move -->
+      <pose>-2 -3 0.5 0 0 0</pose> <!-- X Y Z Roll Pitch Yaw; place above the ground -->
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.6 0.2 0.2 1</ambient>
+            <diffuse>0.6 0.2 0.2 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
     <model name='border'>
       <pose>0 0 1 0 0 0</pose>
       <static>true</static>
