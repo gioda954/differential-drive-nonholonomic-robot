@@ -1,6 +1,6 @@
-# Add the name of the image for this command to work!
-CONTAINER_NAME := ambulantelab/cpe416:lab4-arm
-
+# Change the name of the image depending on your computer's architecture
+# IMAGE_NAME := ambulantelab/cpe416:lab4-x86
+# IMAGE_NAME := ambulantelab/cpe416:lab4-arm
 build: 
 	docker build . -t ${IMAGE_NAME}
 
@@ -16,8 +16,8 @@ bash:
 	docker run -it --name ${NAME} \
 	--net=ros \
 	--env="DISPLAY=novnc:0.0" \
-	-v ./:/CPE416/:Z \
-	${CONTAINER_NAME} \
+	-v ./:/gobilda_sim/:Z \
+	${IMAGE_NAME} \
 
 arch:
-	@echo "Make will pull the following image: ${CONTAINER_NAME}"
+	@echo "Make will pull the following image: ${IMAGE_NAME}"
