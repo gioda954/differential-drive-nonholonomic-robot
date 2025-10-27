@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <main class="calculator">
+      <h1>Simple Calculator</h1>
+      <form method="post" action="{{ url_for('calculator.calculate') }}" class="calculator__form">
+        <div class="calculator__inputs">
+          <label>
+            First number
+            <input
+              type="number"
+              step="any"
+              name="operand_a"
+              value="{{ calculation.operand_a if calculation.operand_a is not none else '' }}"
+              required
+            />
+          </label>
+
+          <label>
+            Operation
+            <select name="operator">
+              {% for symbol in ['+', '-', '*', '/'] %}
+              <option value="{{ symbol }}" {% if calculation.operator == symbol %}selected{% endif %}>
+                {{ symbol }}
+              </option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <label>
+            Second number
+            <input
+              type="number"
+              step="any"
+              name="operand_b"
+              value="{{ calculation.operand_b if calculation.operand_b is not none else '' }}"
+              required
+            />
+          </label>
+        </div>
+
+        <button type="submit" class="calculator__submit">Calculate</button>
+      </form>
+
+      {% if calculation.result is not none %}
+      <div class="calculator__result" role="status">
+        Result: <strong>{{ '{:g}'.format(calculation.result) }}</strong>
+      </div>
+      {% elif calculation.error %}
+      <div class="calculator__error" role="alert">
+        {{ calculation.error }}
+      </div>
+      {% endif %}
+    </main>
+  </body>
+</html>
