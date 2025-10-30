@@ -2,7 +2,7 @@
 <sdf version="1.8">
     <model name='diff_drive'>
       <link name='chassis'>
-        <pose>-0.151427 -0 0.175 0 -0 0</pose>
+        <pose>-0.151427 -0 0.175 0 -0 1.57</pose>
         <inertial>
           <mass>1.14395</mass>
           <inertia>
@@ -138,9 +138,7 @@
       </link>
 
       <link name="lidar_link">
-        <pose>0 0 0.5 0 0 0</pose>
-        <!-- Edit the line ABOVE! -->
-        <!-- Values are: -->
+        <pose>0.10 0.00 0.20 0 0 0</pose>  <!-- x y z R P Y -->
         <!-- x y z roll pitch yaw -->
         <inertial>
           <mass>0.1</mass>

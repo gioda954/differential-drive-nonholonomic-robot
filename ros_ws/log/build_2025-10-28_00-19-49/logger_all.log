@@ -1,0 +1,177 @@
+[0.689s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'gobilda_utilities']
+[0.692s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gobilda_utilities'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7e1d4070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e314700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e314700>>, mixin_verb=('build',))
+[1.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.172s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.183s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/gobilda_sim/ros_ws'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ignore'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ignore_ament_install'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['colcon_meta']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'colcon_meta'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['ros']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ros'
+[1.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gobilda_utilities' with type 'ros.ament_python' and name 'gobilda_utilities'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['ignore', 'ignore_ament_install']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'ignore'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'ignore_ament_install'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['colcon_pkg']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'colcon_pkg'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['colcon_meta']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'colcon_meta'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['ros']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'ros'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['cmake', 'python']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'cmake'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'python'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extensions ['python_setup_py']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project) by extension 'python_setup_py'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extension 'ignore_ament_install'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extensions ['colcon_pkg']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extension 'colcon_pkg'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extensions ['colcon_meta']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extension 'colcon_meta'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extensions ['ros']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_bringup) by extension 'ros'
+[1.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_project/ros_gz_example_bringup' with type 'ros.ament_cmake' and name 'ros_gz_example_bringup'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extension 'ignore'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extension 'ignore_ament_install'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extensions ['colcon_pkg']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extension 'colcon_pkg'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extensions ['colcon_meta']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extension 'colcon_meta'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extensions ['ros']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_description) by extension 'ros'
+[1.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_project/ros_gz_example_description' with type 'ros.ament_cmake' and name 'ros_gz_example_description'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extension 'ignore'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extension 'ignore_ament_install'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extensions ['colcon_pkg']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extension 'colcon_pkg'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_project/ros_gz_example_gazebo) by extension 'ros'
+[1.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_project/ros_gz_example_gazebo' with type 'ros.ament_cmake' and name 'ros_gz_example_gazebo'
+[1.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.414s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros_gz_example_description' in 'src/ros_gz_project/ros_gz_example_description'
+[1.415s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros_gz_example_gazebo' in 'src/ros_gz_project/ros_gz_example_gazebo'
+[1.415s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros_gz_example_bringup' in 'src/ros_gz_project/ros_gz_example_bringup'
+[1.416s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_target' from command line to 'None'
+[1.429s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.429s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.431s] DEBUG:colcon.colcon_core.verb:Building package 'gobilda_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/gobilda_sim/ros_ws/build/gobilda_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/gobilda_sim/ros_ws/install/gobilda_utilities', 'merge_install': False, 'path': '/gobilda_sim/ros_ws/src/gobilda_utilities', 'symlink_install': True, 'test_result_base': None}
+[1.431s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/gobilda_sim/ros_ws/src/gobilda_utilities' with build type 'ament_python'
+[1.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'ament_prefix_path')
+[1.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.542s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/gobilda_sim/ros_ws/src/gobilda_utilities'
+[2.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/gobilda_sim/ros_ws/build/gobilda_utilities': PYTHONPATH=/gobilda_sim/ros_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/gobilda_sim/ros_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /gobilda_sim/ros_ws/build/gobilda_utilities/build --no-deps symlink_data
+[4.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'pythonpath_develop')
+[4.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.ps1'
+[4.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/gobilda_sim/ros_ws/build/gobilda_utilities' returned '0': PYTHONPATH=/gobilda_sim/ros_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/gobilda_sim/ros_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /gobilda_sim/ros_ws/build/gobilda_utilities/build --no-deps symlink_data
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/gobilda_sim/ros_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.dsv'
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.sh'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities' for CMake module files
+[5.099s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities' for CMake config files
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities/lib'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities/bin'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities/lib/pkgconfig/gobilda_utilities.pc'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities/lib/python3.10/site-packages'
+[5.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'pythonpath')
+[5.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.ps1'
+[5.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.dsv'
+[5.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.sh'
+[5.115s] Level 1:colcon.colcon_core.environment:checking '/gobilda_sim/ros_ws/install/gobilda_utilities/bin'
+[5.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gobilda_utilities)
+[5.116s] INFO:colcon.colcon_core.shell:Creating package script '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/package.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/package.dsv'
+[5.119s] INFO:colcon.colcon_core.shell:Creating package script '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/package.sh'
+[5.122s] INFO:colcon.colcon_core.shell:Creating package script '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/package.bash'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package script '/gobilda_sim/ros_ws/install/gobilda_utilities/share/gobilda_utilities/package.zsh'
+[5.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/gobilda_sim/ros_ws/install/gobilda_utilities/share/colcon-core/packages/gobilda_utilities)
+[5.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.174s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.177s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[5.178s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/gobilda_sim/ros_ws/install/local_setup.ps1'
+[5.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/gobilda_sim/ros_ws/install/_local_setup_util_ps1.py'
+[5.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/gobilda_sim/ros_ws/install/setup.ps1'
+[5.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/gobilda_sim/ros_ws/install/local_setup.sh'
+[5.239s] INFO:colcon.colcon_core.shell:Creating prefix util module '/gobilda_sim/ros_ws/install/_local_setup_util_sh.py'
+[5.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/gobilda_sim/ros_ws/install/setup.sh'
+[5.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/gobilda_sim/ros_ws/install/local_setup.bash'
+[5.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/gobilda_sim/ros_ws/install/setup.bash'
+[5.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/gobilda_sim/ros_ws/install/local_setup.zsh'
+[5.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/gobilda_sim/ros_ws/install/setup.zsh'

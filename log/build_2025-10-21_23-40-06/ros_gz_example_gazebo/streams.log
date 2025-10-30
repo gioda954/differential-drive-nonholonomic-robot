@@ -1,0 +1,260 @@
+[0.004s] Invoking command in '/gobilda_sim/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake /gobilda_sim/ros_ws/src/ros_gz_project/ros_gz_example_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/gobilda_sim/install/ros_gz_example_gazebo
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.069s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.122s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.127s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.296s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.324s] -- Found ros_gz_example_description: 0.0.0 (/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/cmake)
+[0.337s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.337s] -- Searching for dependencies of ignition-plugin1
+[0.337s] -- Searching for <ignition-plugin1> component [register]
+[0.341s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.341s] -- Searching for dependencies of ignition-plugin1-register
+[0.344s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.344s] -- Searching for dependencies of ignition-common4
+[0.345s] -- Looking for dlfcn.h - found
+[0.350s] -- Looking for libdl - found
+[0.352s] -- Found DL: TRUE  
+[0.362s] -- Checking for module 'uuid'
+[0.368s] --   Found uuid, version 2.37.2
+[0.379s] -- Found UUID: TRUE  
+[0.379s] -- Searching for <ignition-common4> component [profiler]
+[0.383s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.383s] -- Searching for dependencies of ignition-common4-profiler
+[0.386s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[0.386s] -- Searching for dependencies of ignition-gazebo6
+[0.390s] -- Looking for sdformat12 -- found version 12.7.2
+[0.390s] -- Searching for dependencies of sdformat12
+[0.391s] -- Checking for module 'tinyxml2'
+[0.397s] --   Found tinyxml2, version 9.0.0
+[0.416s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.416s] -- Searching for dependencies of ignition-math6
+[0.427s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.429s] -- Searching for dependencies of ignition-utils1
+[0.429s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.429s] -- Searching for dependencies of ignition-plugin1
+[0.429s] -- Searching for <ignition-plugin1> component [loader]
+[0.432s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.432s] -- Searching for dependencies of ignition-plugin1-loader
+[0.432s] -- Searching for <ignition-plugin1> component [register]
+[0.435s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.436s] -- Searching for dependencies of ignition-transport11
+[0.608s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.616s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.618s] -- Checking for module 'libzmq >= 4'
+[0.624s] --   Found libzmq , version 4.3.4
+[0.638s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.652s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.654s] -- Searching for dependencies of ignition-utils1
+[0.654s] -- Searching for <ignition-utils1> component [cli]
+[0.657s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.658s] -- Searching for dependencies of ignition-utils1-cli
+[0.661s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.661s] -- Searching for dependencies of ignition-msgs8
+[0.672s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.672s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.675s] -- Searching for <ignition-transport11> component [log]
+[0.678s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[0.678s] -- Searching for dependencies of ignition-transport11-log
+[0.678s] -- Searching for <ignition-transport11> component [parameters]
+[0.680s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[0.680s] -- Searching for dependencies of ignition-transport11-parameters
+[0.681s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.683s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.683s] -- Searching for dependencies of ignition-common4
+[0.685s] -- Looking for dlfcn.h - found
+[0.686s] -- Looking for libdl - found
+[0.686s] -- Searching for <ignition-common4> component [profiler]
+[0.686s] -- Searching for <ignition-common4> component [events]
+[0.689s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.689s] -- Searching for dependencies of ignition-common4-events
+[0.689s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.690s] -- Searching for <ignition-common4> component [av]
+[0.692s] -- Looking for ignition-common4-av -- found version 4.7.0
+[0.693s] -- Searching for dependencies of ignition-common4-av
+[0.694s] -- Checking for module 'libswscale'
+[0.699s] --   Found libswscale, version 5.9.100
+[0.714s] -- Found SWSCALE: TRUE  
+[0.716s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.721s] --   Found libavdevice , version 58.13.100
+[0.738s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.741s] -- Checking for module 'libavformat'
+[0.748s] --   Found libavformat, version 58.76.100
+[0.762s] -- Found AVFORMAT: TRUE  
+[0.764s] -- Checking for module 'libavcodec'
+[0.768s] --   Found libavcodec, version 58.134.100
+[0.780s] -- Found AVCODEC: TRUE  
+[0.782s] -- Checking for module 'libavutil'
+[0.787s] --   Found libavutil, version 56.70.100
+[0.797s] -- Found AVUTIL: TRUE  
+[0.801s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[0.801s] -- Searching for dependencies of ignition-fuel_tools7
+[0.834s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.839s] -- Checking for module 'jsoncpp'
+[0.844s] --   Found jsoncpp, version 1.9.5
+[0.854s] -- Found JSONCPP: TRUE  
+[0.858s] -- Checking for module 'libzip'
+[0.862s] --   Found libzip, version 1.7.3
+[0.873s] -- Found ZIP: TRUE  
+[0.874s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.874s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.874s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.877s] -- Looking for ignition-gui6 -- found version 6.8.0
+[0.877s] -- Searching for dependencies of ignition-gui6
+[0.890s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.890s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.891s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.891s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.893s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[0.894s] -- Searching for dependencies of ignition-rendering6
+[0.894s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.894s] -- Searching for dependencies of ignition-math6
+[0.894s] -- Searching for <ignition-math6> component [eigen3]
+[0.897s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[0.897s] -- Searching for dependencies of ignition-math6-eigen3
+[0.904s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.905s] -- Searching for dependencies of ignition-common4
+[0.905s] -- Looking for dlfcn.h - found
+[0.905s] -- Looking for libdl - found
+[0.907s] -- Searching for <ignition-common4> component [graphics]
+[0.911s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[0.911s] -- Searching for dependencies of ignition-common4-graphics
+[0.912s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.912s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.912s] -- Searching for <ignition-common4> component [events]
+[0.912s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.912s] -- Searching for dependencies of ignition-plugin1
+[0.912s] -- Searching for <ignition-plugin1> component [all]
+[0.914s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[0.914s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.915s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.936s] -- Looking for ignition-physics5 -- found version 5.3.2
+[0.936s] -- Searching for dependencies of ignition-physics5
+[0.936s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.936s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.936s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.936s] -- Searching for <ignition-physics5> component [heightmap]
+[0.939s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[0.939s] -- Searching for dependencies of ignition-physics5-heightmap
+[0.940s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.940s] -- Searching for <ignition-physics5> component [mesh]
+[0.943s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[0.943s] -- Searching for dependencies of ignition-physics5-mesh
+[0.943s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.943s] -- Searching for <ignition-physics5> component [sdf]
+[0.945s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[0.945s] -- Searching for dependencies of ignition-physics5-sdf
+[0.946s] -- Looking for sdformat12 -- found version 12.7.2
+[0.948s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.948s] -- Searching for dependencies of ignition-sensors6
+[0.960s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.960s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.960s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.960s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.960s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[0.960s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.960s] -- Looking for sdformat12 -- found version 12.7.2
+[0.960s] -- Searching for <ignition-sensors6> component [air_pressure]
+[0.962s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[0.962s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[0.963s] -- Searching for <ignition-sensors6> component [altimeter]
+[0.965s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[0.965s] -- Searching for dependencies of ignition-sensors6-altimeter
+[0.965s] -- Searching for <ignition-sensors6> component [imu]
+[0.968s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[0.968s] -- Searching for dependencies of ignition-sensors6-imu
+[0.968s] -- Searching for <ignition-sensors6> component [force_torque]
+[0.971s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[0.971s] -- Searching for dependencies of ignition-sensors6-force_torque
+[0.971s] -- Searching for <ignition-sensors6> component [logical_camera]
+[0.973s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[0.973s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[0.974s] -- Searching for <ignition-sensors6> component [magnetometer]
+[0.976s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[0.976s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[0.976s] -- Searching for <ignition-sensors6> component [navsat]
+[0.979s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[0.979s] -- Searching for dependencies of ignition-sensors6-navsat
+[0.979s] -- Searching for <ignition-sensors6> component [rendering]
+[0.981s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[0.981s] -- Searching for dependencies of ignition-sensors6-rendering
+[0.981s] -- Searching for <ignition-sensors6> component [lidar]
+[0.984s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[0.984s] -- Searching for dependencies of ignition-sensors6-lidar
+[0.984s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.985s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[0.987s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[0.987s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[0.988s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.988s] -- Searching for <ignition-sensors6> component [camera]
+[0.990s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[0.990s] -- Searching for dependencies of ignition-sensors6-camera
+[0.990s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.991s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[0.993s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[0.993s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[0.993s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[0.996s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[0.996s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[0.996s] -- Searching for <ignition-sensors6> component [depth_camera]
+[0.999s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[0.999s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[0.999s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.999s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.002s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[1.002s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.002s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.002s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.005s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[1.005s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.005s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.006s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.006s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.008s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.021s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.075s] -- Configuring done
+[1.111s] -- Generating done
+[1.123s] -- Build files have been written to: /gobilda_sim/build/ros_gz_example_gazebo
+[1.124s] Invoked command in '/gobilda_sim/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake /gobilda_sim/ros_ws/src/ros_gz_project/ros_gz_example_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/gobilda_sim/install/ros_gz_example_gazebo
+[1.126s] Invoking command in '/gobilda_sim/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake --build /gobilda_sim/build/ros_gz_example_gazebo -- -j8 -l8
+[1.157s] [ 50%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[1.157s] [ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[4.428s] [ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[4.514s] [100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[4.625s] [100%] Built target BasicSystem
+[4.663s] [100%] Built target FullSystem
+[4.671s] Invoked command in '/gobilda_sim/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake --build /gobilda_sim/build/ros_gz_example_gazebo -- -j8 -l8
+[4.685s] Invoking command in '/gobilda_sim/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake --install /gobilda_sim/build/ros_gz_example_gazebo
+[4.689s] -- Install configuration: ""
+[4.689s] -- Execute custom install script
+[4.691s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libBasicSystem.so
+[4.694s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libFullSystem.so
+[4.699s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds/diff_drive.sdf
+[4.703s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.dsv
+[4.707s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.sh
+[4.711s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_gazebo
+[4.715s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_gazebo
+[4.718s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.sh
+[4.722s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.dsv
+[4.727s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.sh
+[4.732s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.dsv
+[4.736s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.bash
+[4.740s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.sh
+[4.744s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.zsh
+[4.748s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.dsv
+[4.752s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.dsv
+[4.756s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ament_index/resource_index/packages/ros_gz_example_gazebo
+[4.760s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig.cmake
+[4.764s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig-version.cmake
+[4.767s] -- Symlinking: /gobilda_sim/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.xml
+[4.772s] Invoked command in '/gobilda_sim/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/gobilda_sim/install/ros_gz_example_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/gobilda_sim/install/ros_gz_example_description/share/ros_gz_example_description/models /usr/bin/cmake --install /gobilda_sim/build/ros_gz_example_gazebo

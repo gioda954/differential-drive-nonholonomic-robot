@@ -56,3 +56,28 @@ ros2 launch ros_gz_example_bringup diff_drive.launch.py
 
 You should now see the Gazebo simulation window open in the noVNC browser tab you opened in Step 4, and the robot will be spawned.
 Finally, you should press play in the Gazebo simulator to start the simulation. After, you should see the topics and robot model in RViz.
+
+
+
+command to start simulation :
+terminal:
+cd gobilda_sim
+docker start -ai sim_test
+http://localhost:8080/vnc.html
+
+
+terminal: 
+docker exec -it sim_test bash
+
+
+docker 1:
+cd /gobilda_sim/ros_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch ros_gz_example_bringup diff_drive.launch.py
+
+docker2:
+cd /gobilda_sim/ros_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 run gobilda_utilities bump_and_go

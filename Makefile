@@ -1,6 +1,6 @@
 # Change the name of the image depending on your computer's architecture
 # IMAGE_NAME := ambulantelab/cpe416:lab4-x86
-# IMAGE_NAME := ambulantelab/cpe416:lab4-arm
+IMAGE_NAME := ambulantelab/cpe416:lab4-arm
 build: 
 	docker build . -t ${IMAGE_NAME}
 

@@ -1,0 +1,3 @@
+[console_scripts]
+bump_and_go = gobilda_utilities.bump_and_go:main
+
